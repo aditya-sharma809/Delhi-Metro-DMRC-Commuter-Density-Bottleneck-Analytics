@@ -11,7 +11,7 @@ An end-to-end enterprise data analytics & engineering project evaluating **150,0
 
 ## 📌 Executive Summary & Key Highlights
 
-* **Total Revenue Analyzed:** **₹31.53 Crore** ($₹315,386,664.91$) across 150,000 valid transacted trips.
+* **Total Revenue Analyzed:** **₹31.53 Crore** (₹315,386,664.91) across 150,000 valid transacted trips.
 * **Ridership Volume:** **3.0 Million+ Passengers** handled across the network.
 * **Primary Bottleneck:** **Rajiv Chowk (349,784 passengers)** and **Noida City Centre (278,174 passengers)** generate **2.5x higher traffic** than mid-tier major hubs.
 * **Monetization Winner:** **Tourist Cards drive 39.5% (~₹12.45 Cr)** of total revenue despite lower volume, outperforming Single Tokens (25.0%) and Smart Cards (24.8%).
