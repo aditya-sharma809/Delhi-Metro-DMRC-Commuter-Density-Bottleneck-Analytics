@@ -15,7 +15,7 @@ An end-to-end enterprise data analytics & engineering project evaluating **150,0
 * **Ridership Volume:** **3.0 Million+ Passengers** handled across the network.
 * **Primary Bottleneck:** **Rajiv Chowk (349,784 passengers)** and **Noida City Centre (278,174 passengers)** generate **2.5x higher traffic** than mid-tier major hubs.
 * **Monetization Winner:** **Tourist Cards drive 39.5% (~₹12.45 Cr)** of total revenue despite lower volume, outperforming Single Tokens (25.0%) and Smart Cards (24.8%).
-* **Statistical Finding (T-Test):** Proven static pricing structure ($p = 0.517$) with zero fare variance between peak surge and off-peak hours, unlocking a massive **Time-of-Day Dynamic Pricing Opportunity**.
+* **Statistical Finding (T-Test):** Proven static pricing structure (p = 0.517) with zero fare variance between peak surge and off-peak hours, unlocking a massive **Time-of-Day Dynamic Pricing Opportunity**.
 
 ---
 
