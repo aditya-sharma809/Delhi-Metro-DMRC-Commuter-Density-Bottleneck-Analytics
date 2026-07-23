@@ -72,11 +72,11 @@ https://datastudio.google.com/reporting/18a68b3e-2405-4c9b-9ec3-826d19317ca8
 Data staging was executed in SQLite before loading into Google BigQuery (`delhi-metro-project-503214.Delhi_Metro`).
 
 ### 🛠️ Engineered Features (5 Business Metrics)
-1. **`Revenue_Per_KM`**: Operational yield efficiency per trip distance ($\text{Revenue} / \text{Distance}$).
-2. **`Passenger_Density_Group`**: Traffic density classification (`High Congestion Peak` $\ge 30$, `Medium`, `Low Volume`).
+1. **`Revenue_Per_KM`**: Operational yield efficiency per trip distance (Revenue/Distance).
+2. **`Passenger_Density_Group`**: Traffic density classification (`High Congestion Peak`>=30, `Medium`, `Low Volume`).
 3. **`Is_Peak_Surge`**: Binary ML-ready flag (`1` for Surge/Events, `0` for Off-Peak).
 4. **`Fare_Tier`**: Categorized fare slabs (`Budget <₹50`, `Standard ₹50-100`, `Premium >₹100`).
-5. **`Revenue_Impact_Class`**: High-value trip identifier ($\ge ₹2500$).
+5. **`Revenue_Impact_Class`**: High-value trip identifier (>=₹2500).
 
 sql
 -- Sample BigQuery Data Cleaning & Standardization Query
@@ -107,7 +107,7 @@ WHERE CAST(Fare AS FLOAT64) >= 0 AND CAST(Passengers AS INT64) > 0;
 1. Top 10 High-Congestion Origin HubsInsight: Rajiv Chowk (349,784 passengers) and Noida City Centre (278,174 passengers) represent the heaviest bottleneck hubs in the network. 
 2. Revenue Contribution Share by Ticket ProductInsight: Tourist Cards generate 39.5% (~₹12.45 Cr) of total revenue[cite: 1, 2]. Single Journey Tokens (25.0%) and Smart Cards (24.8%) share the remaining major volume[cite: 1, 2].
 3. Monthly Ridership Trend & February SeasonalityInsight: Multi-year trend analysis reveals a recurring 12–14% ridership drop every February (~74,000–77,000 trips) compared to mid-year peaks (~87,000 trips)[cite: 1, 2].
-4. Feature Correlation MatrixInsight: Distance vs Revenue Per KM exhibits a negative correlation ($-0.47$), showing short-distance dense trips deliver higher operational margins per kilometer.
+4. Feature Correlation MatrixInsight: Distance vs Revenue Per KM exhibits a negative correlation (-0.47), showing short-distance dense trips deliver higher operational margins per kilometer.
 
 🎯 Strategic Action Roadmap
 
